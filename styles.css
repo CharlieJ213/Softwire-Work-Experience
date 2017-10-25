@@ -1,0 +1,19 @@
+body {
+	background-color: lightblue;
+}
+
+.Heading {
+	text-align: center;
+	text-decoration: underline;
+	color: navy;
+	border-style: dashed;
+	width: 50%;
+	border-width: 2px;
+	margin: auto;
+	border-color: crimson;
+}
+
+.creator {
+	font-size: 8px;
+	text-align: center;
+}
