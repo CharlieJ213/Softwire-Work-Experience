@@ -17,3 +17,42 @@ body {
 	font-size: 8px;
 	text-align: center;
 }
+
+.Choices {
+	position:absolute;
+	width: 300px;
+	height: 50px;
+	left: 618px;
+}
+
+#multiple1 {
+	top: 100px;
+}
+
+#multiple2 {
+	top: 160px;
+}
+
+#multiple3 {
+	top: 220px;
+}
+
+#multiple4 {
+	top: 280px;
+}
+
+#ChangeQ {
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	left: 695px;
+	top: 340px;
+}
+
+#cmdStart {
+	top: 100px;
+}
+
+.visible {
+	visibility: hidden;
+}
