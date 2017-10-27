@@ -9,21 +9,21 @@
 <body>
 	<div class="MainTitle">
 	<!--First heading at the top of the page-->
-	<strong><h1 class="Heading">Question</strong><br>
+	<strong><h1 class="Heading" id="question">Question</h1></strong>
 		<!--Audio player that is only visible when the class is removed (i.e. for audio questions)-->
-		<audio controls class="visible">
-			<Source src="" type="audio/wav">
+		<audio controls class="" id="player">
+			<Source id= "AudioSource" src="" type="audio/wav">
 		</audio>
 	</div>
 	<!--Buttons for the multiple choice answers-->
 	<button type="submit" class="Choices" id="multiple1">Choice 1</button>
 	<!--For when the quiz is over, this paragraph will be shown to the user displaying their results-->
-	<p class="visible">Your result was</p>
+	<p class="invisible">Your result was</p>
 	<button type="submit" class="Choices" id="multiple2">Choice 2</button>
 	<button type="submit" class="Choices" id="multiple3">Choice 3</button>
 	<button type="submit" class="Choices" id="multiple4">Choice 4</button>
 	<!--Next Question button that will only be visible after a choice is picked-->
-	<button type="submit" class="visible" id="ChangeQ">Next Question</button>
+	<button type="submit" class="invisible" id="ChangeQ">Next Question</button>
 	<!--Importing in the JavaScript file and the jQuery Library-->
 	<script src="jquery-3.2.1.js"></script>	
 	<script src="script.js"></script>

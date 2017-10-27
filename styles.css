@@ -2,15 +2,24 @@ body {
 	background-color: lightblue;
 }
 
-.Heading {
-	text-align: center;
-	text-decoration: underline;
-	color: navy;
+.MainTitle {
 	border-style: dashed;
 	width: 50%;
 	border-width: 2px;
 	margin: auto;
 	border-color: crimson;
+	padding-top: 2px;
+}
+
+#player {
+	padding-left: 230px;
+	padding-bottom: 2px;
+}
+
+.Heading {
+	text-align: center;
+	text-decoration: underline;
+	color: navy;	
 }
 
 .creator {
@@ -26,19 +35,19 @@ body {
 }
 
 #multiple1 {
-	top: 100px;
+	top: 150px;
 }
 
 #multiple2 {
-	top: 160px;
+	top: 210px;
 }
 
 #multiple3 {
-	top: 220px;
+	top: 270px;
 }
 
 #multiple4 {
-	top: 280px;
+	top: 330px;
 }
 
 #ChangeQ {
@@ -46,13 +55,17 @@ body {
 	width: 150px;
 	height: 30px;
 	left: 695px;
-	top: 340px;
+	top: 360px;
 }
 
 #cmdStart {
 	top: 100px;
 }
 
-.visible {
+.invisible {
 	visibility: hidden;
+}
+
+.highlighted {
+	background-color: lightblue
 }
